@@ -599,7 +599,7 @@ davinci_top_bar .dijitButtonNode {
 	border-bottom:1px solid white;
 	z-index:4;
 	margin-bottom:-2px;
-	background:image:none;
+	background-image:none;
 }
 #davinci_file_tabs .dijitTab:hover, #davinci_file_tabs .dijitTab.dijitTabChecked:hover {
 	background:#dfdfdf;
@@ -2318,7 +2318,7 @@ td.welcome_section_cell {
 	display: inline-block;
 }
 .ReviewToolBarText {
-	background-color: ##ffffe0;
+	background-color: #ffffe0;
 	background-image: -webkit-gradient(linear, left top, left bottom, from(#f8f8e8), to(#ffffcc)); 
 	background-image: -o-linear-gradient(#f8f8e8, #ffffcc); 
 	background-image: -ms-linear-gradient(#f8f8e8, #ffffcc); 
@@ -2674,7 +2674,7 @@ td.welcome_section_cell {
 	height:16px;
 	background-image: url('img/sprite.png');
 }
-..manageStatesCheckbox:hover {
+.manageStatesCheckbox:hover {
 	cursor:pointer;
 }
 .manageStatesCheckboxAllVisible {
